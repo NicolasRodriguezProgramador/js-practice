@@ -11,47 +11,71 @@
 <body>
   <main class="d-flex flex-column justify-content-center align-items-center">
     <div class="container">
-      <section>
+      <section class="vh-100 d-flex flex-column align-items-center justify-content-center">
         <h1 class="h3">AJAX: Asynchronous JavaScript & XML</h1>
-        <p><b><i>AJAX</i></b> significa <b><i>Asynchronous JavaScript And XML</i></b>. En pocas palabras, es el uso del objeto <b><i>XMLHttpRequest</i></b> para comunicarse con los servidores.</p>
-        <p>Puede enviar y recibir información en varios formatos, incluidos <b><i>JSON</i></b>, <b><i>XML</i></b>, <b><i>HTML</i></b> y archivos de texto.</p>
-        <p>El atractivo de <b><i>AJAX</i></b> es su naturaleza "<i>asíncrona</i>", lo que significa que puede comunicarse con el servidor, intercambiar datos y actualizar la página sin tener que recargar el navegador.</p>
+        <div class="align-items-start">
+          <p><b><i>AJAX</i></b> significa <b><i>Asynchronous JavaScript And XML</i></b>. En pocas palabras, es el uso del objeto
+            <b><i>XMLHttpRequest</i></b> para comunicarse con los servidores.</p>
+          <p>Puede enviar y recibir información en varios formatos, incluidos <b><i>JSON</i></b>, <b><i>XML</i></b>,
+            <b><i>HTML</i></b> y archivos de texto.</p>
+          <p>El atractivo de <b><i>AJAX</i></b> es su naturaleza "<i>asíncrona</i>", lo que significa que puede comunicarse con el
+            servidor, intercambiar datos y actualizar la página sin tener que recargar el navegador.</p>
+        </div>
         <img src="assets/ajax.png" alt="AJAX">
       </section>
-      <section>
-        <h2 class="h3">Métodos Nativos</h2>
-        <ul>
-          <li><h3><a href="https://developer.mozilla.org/en-US/search?q=ActiveXObject" target="_blank" rel="noopener">ActiveXObject</a> <small>(IE8 e inferiores)</small></h3></li>
-          <li><h3><a href="https://developer.mozilla.org/es/docs/Web/API/XMLHttpRequest" target="_blank" rel="noopener">XMLHttpRequest</a></h3></li>
-          <li><h3><a href="https://developer.mozilla.org/es/docs/Web/API/Fetch_API" target="_blank" rel="noopener">API Fetch</a></h3></li>
-        </ul>
+      <section class="vh-100 d-flex flex-column align-items-center justify-content-center">
+        <h2 class="h3 p-5">Métodos Nativos</h2>
+        <div class="align-items-start">
+          <ul>
+            <li>
+              <h3><a href="https://developer.mozilla.org/en-US/search?q=ActiveXObject" target="_blank"
+                  rel="noopener">ActiveXObject</a> <small>(IE8 e inferiores)</small></h3>
+            </li>
+            <li>
+              <h3><a href="https://developer.mozilla.org/es/docs/Web/API/XMLHttpRequest" target="_blank"
+                  rel="noopener">XMLHttpRequest</a></h3>
+            </li>
+            <li>
+              <h3><a href="https://developer.mozilla.org/es/docs/Web/API/Fetch_API" target="_blank" rel="noopener">API Fetch</a>
+              </h3>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2 class="h3">Librerías Externas</h2>
-        <ul>
-          <li><h3><a href="https://api.jquery.com/category/ajax/" target="_blank" rel="noopener">jQuery.ajax()</a></h3></li>
-          <li><h3><a href="https://github.com/axios/axios" target="_blank" rel="noopener">Axios</a></h3></li>
-          <li><h3>etc.</h3></li>
-        </ul>
-        <p>Ajax no es una tecnología en sí mismo. En realidad, se trata de varias tecnologías independientes que se unen: </p>
-        <ul>
-          <li><b>HTML y CSS</b>, para crear una presentación basada en estándares.</li>
-          <li><b>DOM</b>, para la interacción y manipulación dinámica de la presentación.</li>
-          <li><b>HTML, XML y JSON</b>, para el intercambio y la manipulación de información.</li>
-          <li><b>XMLHttpRequest</b> o <b>Fetch</b>, para el intercambio asíncrono de información.</li>
-          <li><b>JavaScript</b>, para unir todas las demás tecnologías.</li>
-          <li><b>Estado de la Petición</b>
-            <br>
-            <ul>
-              <li class="fs-7">READY_STATE_UNINITIALIZED = 0</li>
-              <li class="fs-7">READY_STATE_LOADING = 1</li>
-              <li class="fs-7">READY_STATE_LOADED = 2</li>
-              <li class="fs-7">READY_STATE_INTERACTIVE = 3</li>
-              <li class="fs-7">READY_STATE_COMPLETE = 4</li>
-            </ul>
-          </li>
-          <li><b><a href="https://developer.mozilla.org/es/docs/Web/HTTP/Status" target="_blank" rel="noopener">Códigos de estado de respuesta HTTP</a></b></li>
-        </ul>
+      <section class="vh-100 d-flex flex-column align-items-center justify-content-center">
+        <h2 class="h3 p-5">Librerías Externas</h2>
+        <div class="align-items-start">
+          <ul>
+            <li>
+              <h3><a href="https://api.jquery.com/category/ajax/" target="_blank" rel="noopener">jQuery.ajax()</a></h3>
+            </li>
+            <li>
+              <h3><a href="https://github.com/axios/axios" target="_blank" rel="noopener">Axios</a></h3>
+            </li>
+            <li>
+              <h3>etc.</h3>
+            </li>
+          </ul>
+          <p>Ajax no es una tecnología en sí mismo. En realidad, se trata de varias tecnologías independientes que se unen: </p>
+          <ul>
+            <li><b>HTML y CSS</b>, para crear una presentación basada en estándares.</li>
+            <li><b>DOM</b>, para la interacción y manipulación dinámica de la presentación.</li>
+            <li><b>HTML, XML y JSON</b>, para el intercambio y la manipulación de información.</li>
+            <li><b>XMLHttpRequest</b> o <b>Fetch</b>, para el intercambio asíncrono de información.</li>
+            <li><b>JavaScript</b>, para unir todas las demás tecnologías.</li>
+            <li><b>Estado de la Petición</b>
+              <ul>
+                <li class="fs-7">READY_STATE_UNINITIALIZED = 0</li>
+                <li class="fs-7">READY_STATE_LOADING = 1</li>
+                <li class="fs-7">READY_STATE_LOADED = 2</li>
+                <li class="fs-7">READY_STATE_INTERACTIVE = 3</li>
+                <li class="fs-7">READY_STATE_COMPLETE = 4</li>
+              </ul>
+            </li>
+            <li><b><a href="https://developer.mozilla.org/es/docs/Web/HTTP/Status" target="_blank" rel="noopener">Códigos de
+                  estado de respuesta HTTP</a></b></li>
+          </ul>
+        </div>
       </section>
       <section>
         <div>
